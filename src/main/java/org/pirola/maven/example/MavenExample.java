@@ -51,7 +51,7 @@ public final class MavenExample {
         System.out.println("Begin "
             + ReadManifest.getBuildInfo(CLASS_NAME));
         System.out.println(getGreeting());
-        ReadManifest.printAllAttributes();
+        ReadManifest.printAllAttributes()
     }
 
     /**
